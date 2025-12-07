@@ -695,7 +695,7 @@
     gap: 10px;
 }
 
-.message{
+.message1{
     font-family: var(--font);
     font-size: 50.1px;
     /* background-color: yellow; */
@@ -793,9 +793,17 @@
 }
 
 .front{
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+
+.front:hover{
+    background-color: var(--textcolor);
+    color: white;
+    cursor: pointer;
 }
 
 .arrow-front{
@@ -806,6 +814,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+}
+
+.back:hover{
+    background-color: var(--textcolor);
+    color: white;
+    cursor: pointer;
 }
 
 .arrow-back{
@@ -824,3 +839,126 @@
     color: var(--textcolor);
 }
 
+.seo1{
+    background-color: blue;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.seo-upper-layer{
+    background-color: yellow;
+    width: 98%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.seo-message{
+    background-color: red;
+    width: 49%;
+    height: 100%;
+}
+
+.seo-right-message{
+    background-color: red;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seo-top-message{
+    background-color: aqua;
+    width: 95%;
+    height: 60%;
+}
+
+.seo-see-more{
+    background-color: aqua;
+    width: 95%;
+    height: 39%;
+}
+
+.seo-lower-layer{
+    background-color: yellow;
+    width: 98%;
+    height: 54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.seo-box{
+    background-color: red;
+    width: 520px;
+    height: 450px;
+    border-radius: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.seo-box-1{
+    background-color: aqua;
+    width: 95%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seo-box-1-1{
+    background-color: pink;
+    height:25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.seo-box-1-2{
+    background-color: pink;
+    width: 105px;
+    height: 25px;
+}
+
+.seo-box3-1{
+    background-color: pink;
+    width: 65%;
+    height: 97%;
+}
+
+.seo-box3-2{
+    background-color: pink;
+    width: 30%;
+    height: 60%;
+}
+
+.seo-box-2{
+    background-color: aqua;
+    width: 95%;
+    height: 50%;
+}
+
+.seo-box-3{
+    background-color: aqua;
+    width: 95%;
+    height: 37%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:  2px;
+}
