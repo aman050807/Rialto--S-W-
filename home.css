@@ -16,6 +16,10 @@
     padding: 0;
 }
 
+body{
+    background-color: rgb(245,245,245);
+}
+
 .nav-bar {
     position: relative;
     top: 10px;
@@ -840,12 +844,12 @@
 }
 
 .seo1{
-    background-color: blue;
+    /* background-color: blue; */
     width: 90vw;
     height: 90vh;
     margin: auto;
     position: relative;
-    top: 150px;
+    top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -854,8 +858,8 @@
 }
 
 .seo-upper-layer{
-    background-color: yellow;
-    width: 98%;
+    /* background-color: yellow; */
+    width: 96%;
     height: 45%;
     display: flex;
     justify-content: space-between;
@@ -864,14 +868,17 @@
 }
 
 .seo-message{
-    background-color: red;
-    width: 49%;
+    /* background-color: red; */
+    width: 55%;
     height: 100%;
+    font-family: var(--font);
+    font-size: 69px;
+    font-weight: 550;
 }
 
 .seo-right-message{
-    background-color: red;
-    width: 49%;
+    /* background-color: red; */
+    width: 44%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -880,19 +887,38 @@
 }
 
 .seo-top-message{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 95%;
-    height: 60%;
+    height: 50%;
+    font-family: var(--font);
+    font-size: 28px;
+    color: var(--secondarytextcolor);
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
 }
 
 .seo-see-more{
-    background-color: aqua;
+    /* background-color: yellow; */
     width: 95%;
-    height: 39%;
+    height: 49%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.seo-see-more-button{
+    background-color: transparent;
+    width: 200px;
+    height: 80px;
+    border-radius: 100px;
+    font-family: var(--font);
+    font-size: 22px;
+    font-weight: 550;
 }
 
 .seo-lower-layer{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 98%;
     height: 54%;
     display: flex;
@@ -902,7 +928,7 @@
 }
 
 .seo-box{
-    background-color: red;
+    background-color: white;
     width: 520px;
     height: 450px;
     border-radius: 27px;
@@ -914,7 +940,7 @@
 }
 
 .seo-box-1{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 95%;
     height: 12%;
     display: flex;
@@ -923,42 +949,86 @@
 }
 
 .seo-box-1-1{
-    background-color: pink;
+    /* background-color: pink; */
     height:25px;
     width: 25px;
     border-radius: 50%;
 }
 
 .seo-box-1-2{
-    background-color: pink;
+    /* background-color: pink; */
     width: 105px;
     height: 25px;
 }
 
 .seo-box3-1{
-    background-color: pink;
+    /* background-color: pink; */
     width: 65%;
     height: 97%;
 }
 
-.seo-box3-2{
-    background-color: pink;
+.seo-box13-2{
+    /* background-color: pink; */
     width: 30%;
     height: 60%;
+    border-radius: 100px;
 }
 
 .seo-box-2{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 95%;
     height: 50%;
 }
 
 .seo-box-3{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 95%;
     height: 37%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap:  2px;
+}
+
+.seo-box-2{
+    font-family: var(--font);
+    font-size: 40px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: var(--textcolor);
+}
+
+.seo-box-1-1-1{
+    background-color: rgb(5, 195, 195);
+}
+
+.seo-box-2-1-1{
+    background-color: orange;
+}
+
+.seo-box-3-1-1{
+    background-color: purple;
+}
+
+.seo-box-1-2{
+    font-family: var(--font);
+    color: var(--secondarytextcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.seo-box3-1{
+    font-family: var(--font);
+    font-size: 21px;
+    color: var(--secondarytextcolor);
+}
+
+.seo-box3-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
