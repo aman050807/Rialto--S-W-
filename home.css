@@ -540,3 +540,91 @@
     height: auto;
     transform: rotate(90deg);
 }
+
+.example{
+    width: 98vw;
+    height: 98vh;
+    background-color: blue;
+    position: relative;
+    top: 70px;
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.example-text{
+    background-color: yellow;
+    width: 95%;
+    height: 20%;
+    font-family: var(--font);
+    font-size: 73px;
+    font-weight: 550;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example-tabs{
+    background-color: yellow;
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-align{
+    width: 80%;
+    height: 80%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabs input{
+    display: none;
+}
+
+.tabs>span{
+    /* background-color: white; */
+    border: 2px solid white;
+    color: white;
+    padding : 10px 22px;
+    border-radius: 35px;
+    box-sizing: border-box;
+    width: 328px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    font-weight: 550;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.tabs input:checked + span{
+    border: none;
+    background-color: var(--secondcolor);
+    color: var(--textcolor);
+}
+
+.example-cards{
+    background-color: yellow;
+    width: 95%;
+    height: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll{
+    background-color: aqua;
+    height: 92%;
+    width: 92%;
+}
