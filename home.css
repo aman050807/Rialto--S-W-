@@ -625,6 +625,32 @@
 
 .scroll{
     background-color: aqua;
-    height: 92%;
-    width: 92%;
+    height: 99%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    gap: 25px;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory;
 }
+
+.card{
+    height: 600px;
+    width: 600px;
+    background-color: red;
+    box-sizing: border-box;
+    border: solid 12px pink;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    border-radius: 30px;
+}
+
+.scroll-box1{
+    border-radius: 50%;
+}
+
+/* .scroll-box2{
+    border-radius: ;
+} */
