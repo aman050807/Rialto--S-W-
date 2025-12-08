@@ -1032,3 +1032,123 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+.page-footer{
+    background-color: blue;
+    width: 98vw;
+    height: 65vh;
+    position: relative;
+    top:300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ready-to-work{
+    background-color: yellow;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ready-to-work-text{
+    background-color: aqua;
+    width: 60%;
+    height: 80%;
+}
+
+.ready-get-started{
+    background-color: aqua;
+    width: 39%;
+    height: 80%;
+}
+
+.contact{
+    background-color: yellow;
+    width: 85%;
+    height: 59%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left{
+    background-color: aqua;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.contact-logo{
+    background-color: red;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-logo-image{
+    background-color: pink;
+    width: 55px;
+    height: 55px;
+}
+
+.contact-logo-text{
+    background-color: pink;
+    width: 220px;
+    height: 55px;
+}
+
+.contact-message{
+    background-color: red;
+    width: 90%;
+    height: 50%;
+}
+
+.contact-social{
+    background-color: red;
+    width: 90%;
+    height: 19%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-brand{
+    background-color: pink;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.contact-right{
+    background-color: aqua;
+    width: 49%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-inside-layout{
+    background-color: red;
+    height: 100%;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation-in-text{
+    background-color: pink;
+}
