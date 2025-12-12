@@ -1,0 +1,1 @@
+alert("Please view the site in 80% screen size. Use cmd -");
